@@ -24,8 +24,8 @@ body{
 .container{
     border-radius: 7px; 
     background: hsl(244, 38%, 16%);
-    width: 75%;
-    height: 66%;
+    width: 72%;
+    height: 65%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -48,12 +48,12 @@ body{
 
 .imagem{
     border-radius: 0px 7px 7px 0px;
-    background-image: url('images/image-header-mobile.jpg');
+    background-image: url('images/image-header-desktop.jpg');
     background-color: hsl(277, 64%, 61%);
     background-size: cover;
     background-blend-mode: multiply;
     width: 100%;
-    height: 100%;
+    position: relative;
 }
 
 h3, h5{
