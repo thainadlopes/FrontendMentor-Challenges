@@ -116,29 +116,23 @@ p{
         text-align: center;
     }
 
+    .info{
+        padding: 20px 40px 40px 40px;
+    }
+
     .dados{
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
-        margin-bottom: 40px;
     }
 
     .dd2, .dd3{
         margin-left: 0px;
     }
-
-    h1{
-        margin-top: 0px;
-    }
     
     .parag{
         font-size: 14px;
-        width: 86%;
+        width: auto;
         line-height: 23px;
-    }
-
-    p{
-        margin: 40px 0 0 20px;
     }
 }
 
