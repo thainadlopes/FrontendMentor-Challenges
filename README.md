@@ -8,3 +8,5 @@ Todos podem ser vistos a seguir:
 
 - [stats-preview-card-component-main](https://card-stats-preview-component.netlify.app/)
 
+- [3-column-preview-card-component-main](https://columns-preview-card-component-main.netlify.app/) 
+
