@@ -1,0 +1,308 @@
+/* Fontes
+------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+/* Formatações gerais
+------------------------ */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    background: url('../images/bg-pattern-top-mobile.svg'),
+                url('../images/bg-pattern-bottom-mobile.svg') white;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 50px 70px 50px 80px;
+}
+
+/* Formatações conteúdo
+------------------------ */
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    width: 100%;
+}
+
+h1{
+    font-size: 45px;
+    color: rgb(80, 32, 80);
+    padding-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.info p{
+    color: hsl(303, 10%, 53%);
+    padding-right: 20%;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.ratings{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.text{
+    color: hsl(300, 61%, 22%);
+    font-weight: 700;
+    padding: 0px 30px 0px 150px;
+}
+
+.stars{
+    float: left;
+}
+
+.stars img{
+    margin-left: 5px;
+}
+
+.stars1{
+    border-radius: 7px;
+    background: hsl(300, 24%, 96%);
+    margin: 10px 80px 0px 0px;
+    padding: 10px 0px 10px 25px;
+}
+
+.stars2{
+    border-radius: 7px;
+    background: hsl(300, 24%, 96%);
+    margin: 15px 40px 0px 40px;
+    padding: 10px 0px 10px 25px;
+}
+
+.stars3{
+    border-radius: 7px;
+    background: hsl(300, 24%, 96%);
+    margin: 15px 0px 0px 80px;
+    padding: 10px 0px 10px 25px;
+}
+
+/* Formatações feedbacks
+------------------------ */
+
+.feedbacks{
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 20px 0px;
+    height: 350px;
+}
+
+.comment1{
+    background: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    margin: 0px 25px 40px 0px;
+    padding: 30px 30px;
+    line-height: 1.5;
+}
+
+.comment2{
+    background: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    margin: 20px 25px 20px 0px;
+    padding: 30px 30px;
+    line-height: 1.5;
+}
+
+.comment3{
+    background: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    margin: 40px 25px 0px 0px;
+    padding: 30px 30px;
+    line-height: 1.5;
+}
+
+h4{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+span{
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+}
+
+.imagem{
+    border-radius: 50px;
+    width: 50px;
+}
+
+
+
+/* Medias Queries
+--------------------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .container{
+        padding: 50px 0px;
+    }
+
+    .conteudo{
+        flex-direction: column;
+    }
+
+    .info{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .info p{
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    h1{
+        font-size: 40px;
+        padding: 0px 10px;
+    }
+
+    li{
+        text-align: center;
+    }
+
+    .ratings{
+        padding: 10px;
+    }
+
+    .stars{
+        float: none;
+    }
+
+    .text{
+        display: inline-block;
+        margin-top: 10px;
+        padding: 0px;
+    }
+
+    .stars1, .stars2, .stars3{
+        margin: 15px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .feedbacks{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 10px;
+    }
+
+    .comment1, .comment2, .comment3{
+        margin: 25px 0px 0px 0px;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 799.98px) {
+
+    .conteudo{
+        flex-direction: column;
+    }
+
+    .info{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .info p{
+        padding: 0px;
+    }
+
+    h1{
+        padding: 0px;
+    }
+
+    .stars1, .stars2, .stars3{
+        margin: 15px 0px 0px 0px;
+    }
+
+    .feedbacks{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .comment1, .comment2, .comment3{
+        margin: 25px 0px 0px 0px;
+    }  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 800px) and (max-width: 991.98px) { 
+
+    .container{
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    h1{
+        padding: 0px;
+    }
+
+    .info{
+        padding-right: 20px;
+    }
+
+    .info p{
+        padding: 0px;
+    }
+
+    .ratings{
+        padding: 0px;
+    }
+
+    .stars1, .stars2, .stars3{
+        margin: 15px 0px 0px 0px;
+    }
+
+    .feedbacks{
+        height: auto;
+    }
+
+    .comment3{
+        margin-right: 0px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .feedbacks{
+        height: auto;
+    }
+}
