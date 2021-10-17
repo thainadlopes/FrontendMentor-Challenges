@@ -10,3 +10,5 @@ Todos podem ser vistos a seguir:
 
 - [3-column-preview-card-component-main](https://columns-preview-card-component-main.netlify.app/) 
 
+- [social-proof-section-master](https://section-social-proof-master.netlify.app/)
+
