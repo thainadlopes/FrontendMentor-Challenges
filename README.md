@@ -12,3 +12,5 @@ Todos podem ser vistos a seguir:
 
 - [social-proof-section-master](https://section-social-proof-master.netlify.app/)
 
+- [order-summary-component-main](https://component-order-summary.netlify.app/)
+
