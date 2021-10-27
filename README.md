@@ -14,3 +14,5 @@ Todos podem ser vistos a seguir:
 
 - [order-summary-component-main](https://component-order-summary.netlify.app/)
 
+- [intro-component-with-signup-form-master](https://intro-with-signup-form-master.netlify.app/)
+
