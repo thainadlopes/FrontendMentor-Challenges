@@ -16,3 +16,5 @@ Todos podem ser vistos a seguir:
 
 - [intro-component-with-signup-form-master](https://intro-with-signup-form-master.netlify.app/)
 
+- [base-apparel-coming-soon-master](https://base-apparel-master.netlify.app/)
+
