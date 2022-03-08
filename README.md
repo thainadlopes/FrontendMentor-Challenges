@@ -18,3 +18,5 @@ Todos podem ser vistos a seguir:
 
 - [base-apparel-coming-soon-master](https://base-apparel-master.netlify.app/)
 
+- [huddle-landing-page-with-single-introductory-section-master](https://page-huddle-landing.netlify.app/)
+
