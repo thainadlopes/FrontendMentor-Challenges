@@ -20,4 +20,6 @@ Todos podem ser vistos a seguir:
 
 - [huddle-landing-page-with-single-introductory-section-master](https://page-huddle-landing.netlify.app/)
 
+- [ping-coming-soon-page-master](https://page-ping-coming-soon.netlify.app/)
+
 
