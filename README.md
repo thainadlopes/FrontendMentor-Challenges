@@ -1,8 +1,6 @@
 # FrontendMentor-Challenges
 
-Soluções dos desafios do Frontend Mentor
-
-Todos podem ser vistos a seguir:
+Soluções dos desafios do Frontend Mentor. Todos podem ser vistos a seguir:
 
 Desafios Newbie:
 
