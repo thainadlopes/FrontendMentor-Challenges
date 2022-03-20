@@ -4,6 +4,8 @@ Soluções dos desafios do Frontend Mentor
 
 Todos podem ser vistos a seguir:
 
+Desafios Newbie:
+
 - [profile-card](https://cartao-perfil-component.netlify.app/)
 
 - [stats-preview-card-component-main](https://card-stats-preview-component.netlify.app/)
@@ -21,6 +23,9 @@ Todos podem ser vistos a seguir:
 - [huddle-landing-page-with-single-introductory-section-master](https://page-huddle-landing.netlify.app/)
 
 - [ping-coming-soon-page-master](https://page-ping-coming-soon.netlify.app/)
+
+
+Desafios Junior:
 
 - [tip-calculator-app-main](https://main-tip-calculator-app.netlify.app/)
 
