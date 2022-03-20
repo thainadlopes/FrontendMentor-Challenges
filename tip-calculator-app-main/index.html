@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo.svg" alt="">
+    </header>
+    <main class="container">
+        <div class="p1">
+            <div class="l1">
+                <label for="">Bill</label><br>
+                <input type="text" class="value" id="valueC" placeholder="0">
+            </div>
+            <h4 style="margin-bottom: 12px">Select Tip %</h4>
+            <div class="btns">
+                <div class="b1">
+                    <button type="button" class="btn" onclick="calcTip(5);">5%</button>
+                    <button type="button" style="margin-left: 7px;" class="btn" ionclick="calcTip(10);">10%</button>
+                    <button type="button" style="margin-left: 7px;" class="btn" onclick="calcTip(15);">15%</button>
+                </div>
+                <div class="b2">
+                    <button type="button" class="btn" onclick="calcTip(50);">25%</button>
+                    <button type="button" style="margin-left: 7px;" class="btn" onclick="calcTip(50);">50%</button>
+                    <input style="margin-left: 7px; padding-right: 20px; text-align: right; background-color: hsl(189, 41%, 97%); color: hsl(183, 100%, 15%); font-size: 22px;" placeholder="Custom" class="btn" id="custom"></input>
+                </div>
+            </div>
+            <div class="l2">
+                <div class="lblP">
+                    <label for="">Number of People</label>
+                    <span id="alert-message">Can't be zero</span>
+                </div>
+                <input type="text" class="numberP" id="number" placeholder="0">
+            </div>
+        </div>
+
+        <div class="p2">
+            <div class="f1">
+                <h4 style="color: white;">Tip Amount <br> <span>/ person</span></h4>
+                <h3 id="tipAmont"><span class="s">$</span>0.00</h3>
+            </div>
+            <div class="f2">
+                <h4 style="color: white;">Total <br> <span>/ person</span></h4>
+                <h3 id="total"><span class="s">$</span>0.00</h3>
+            </div>
+            <button type="button" class="btn2" onclick="reset();">RESET</button>
+        </div>
+    </main>
+
+</body>
+    <script src="script.js"></script>
+</html>
