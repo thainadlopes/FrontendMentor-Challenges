@@ -22,4 +22,6 @@ Todos podem ser vistos a seguir:
 
 - [ping-coming-soon-page-master](https://page-ping-coming-soon.netlify.app/)
 
+- [tip-calculator-app-main](https://main-tip-calculator-app.netlify.app/)
+
 
